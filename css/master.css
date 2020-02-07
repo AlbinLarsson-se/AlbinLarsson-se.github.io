@@ -7,32 +7,32 @@ h2{
 header{
 background-color: green;
 height: 200px;
-width: 600px;
+width: 100%;
 
 
 }
 nav{
 background-color: grey;
 height: 20px;
-width: 600px;
+width: 100%;
 
 }
 main{
   background-color: blue;
   height: 200px;
-  width: 400px;
+  width: 70%;
 
 }
 aside{
   background-color: pink;
   height: 200px;
-  width: 200px;
+  width: 30%;
 
 }
 footer{
   background-color: orange;
   height: 100px;
-  width: 600px;
+  width: 100%;
 
 }
 #mainwrapper{
@@ -41,7 +41,23 @@ footer{
 
 }
 #wrapper{
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 600px)  {
+
+  #mainwrapper{
+    display:flex;
+    flex-direction: column;
+
+}
+main{
+  width: 100%;
+}
+aside{
+  width:100%;
+  
+}
 }
