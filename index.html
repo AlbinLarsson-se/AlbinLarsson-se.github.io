@@ -1,6 +1,7 @@
 
 <! DOCTYPE html>
 <html lang="en" dir="ltr"
+
     <head>
 
       <meta charset="utf-8">
@@ -37,12 +38,30 @@ header
       <div id="mainwrapper">
         <main>
                             <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
-    Detta är startsidan
+        <div id="wrapperbox">
+
+          <div   id="topleft">
+
+          </div>
+
+          <div id="topright">
+
+          </div>
+
+        </div>
+
+        <div id="bottomcenter">
+
+        </div>
+
+
 
       </main>
-      <aside class="">
-      itslearning
-    </aside>
+
+
+      <aside>
+      itslearningfsdjk
+      </aside>
 
 
     </div>
@@ -52,5 +71,20 @@ header
       </footer>
 
 </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+        $("#topleft").click(function(){
+          console.log("hej");
+          $("#topleft").css("background-color,lightgreen")
+$("#topright").toggle("slow",function() {
+//animation complete
+});
+
+
+        });
+
+        </script>
   </body>
 </html>
