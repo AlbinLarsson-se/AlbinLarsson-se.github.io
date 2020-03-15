@@ -1,4 +1,4 @@
-
+<!--
 <! DOCTYPE html>
 <html lang="en" dir="ltr"
     <head>
@@ -31,12 +31,12 @@ header
                             <!--    <a href="https://kunskapsforbundet.itslearning.com/ContentArea/ContentArea.aspx?LocationID=22136&LocationType=1"
                                 <a href="https://www.w3schools.com/" -->
 
-      </nav>
+<!--      </nav>
 
       <div id="mainwrapper">
         <main>
                             <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
-    Detta är sidan om nätaggregat
+  <!--  Detta är sidan om nätaggregat
 
       </main>
       <aside class="">
@@ -51,5 +51,146 @@ header
       </footer>
 
 </div>
+  </body>
+</html>
+-->
+
+<! DOCTYPE html>
+<html lang="en" dir="ltr"
+
+
+
+    <head>
+
+      <meta charset="utf-8">
+      <title> Albins sida </title>
+      <link rel="stylesheet" href="css/master.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+      <h2>Datorns uppbyggnad</h2>
+      <div id="wrapper">
+
+
+
+        <header>
+
+
+                      <a href="index.html">
+
+                       <button class="btn" id="btn1" type="button" name="button">hem</button>
+
+                      </a>
+
+                      <a href="chassie.html">
+
+                        <button class="btn"id="btn2" type="button" name="button">Chassi</button>
+
+                      </a>
+
+                      <a href="cpu.html">
+
+                        <button class="btn" id="btn3" type="button" name="button">Processor</button>
+
+                      </a>
+
+                      <a href="gpu.html">
+
+                        <button class="btn" id="active" type="button" name="button">Grafikkort</button>
+
+                      </a>
+
+                      <a href="RAM.html">
+
+                        <button class="btn" id="btn5" type="button" name="button">Arbetsminne</button>
+
+                      </a>
+
+                      <a href="Nätaggregat.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Nätagregat</button>
+
+                      </a>
+                      <a href="hårddisk.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Hårddisk</button>
+
+                      </a>
+
+                      <a href="refferenser.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">refferenser</button>
+
+                      </a>
+
+
+        </header>
+<hr>
+<br>
+<br>
+<br>
+
+
+      <div id="mainwrapper">
+        <main>
+                            <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
+        <div id="wrapperbox">
+
+          <div   id="topleft">
+Nätaggregatet är den komponent i datorn som levererar all strömförsörjning till dina andra komponenter.
+ Har du resterande komponenter som kräver mycket ström för att kunna arbeta så kan det vara så att du även
+  behöver ett kraftfullare alternativ av nätaggregat för att få din dator komplett. Eftersom att vi pratar om
+   strömförsörjning så är det även Watt som vi pratar om, och de flesta datorer klarar sig på ett nätaggregat på 550 W,
+    men har du en mer utvecklad dator med krävande komponenter så kan ett aggregat på större styrka än så krävas.
+<br>
+<br>
+Nätaggregaten klassificeras med beteckningar från brons upp till titanium-certifiering där titanium är det mest kraftfulla
+och ju högre certifiering aggregatet har, desto bättre är det då det både drar mindre ström och är så kraftfullt som möjligt.
+Detta ger dig alltså den maximala verkningsgraden. De största tillverkarna inom nätaggregat är idag bl.a Corsair, Phanteks
+och Cooler Master och de ligger i en prisklass från ca 500 till över 2000 kr.
+
+          </div>
+
+          <div id="topright">
+         <img src="img/Nätaggregat.jpg" alt="fin bild" width="500px">
+          </div>
+
+        </div>
+
+
+
+
+      </main>
+
+
+      <aside>
+      itslearningfsdjk
+      </aside>
+
+
+    </div>
+
+      <footer>
+        w3schools
+      </footer>
+
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+        $("#topleft").click(function(){
+          console.log("hej");
+          $("#topleft").css("background-color,lightgreen")
+$("#topright").toggle("slow",function() {
+//animation complete
+});
+
+
+        });
+
+        </script>
   </body>
 </html>

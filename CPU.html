@@ -1,4 +1,4 @@
-
+<!--
 <! DOCTYPE html>
 <html lang="en" dir="ltr"
     <head>
@@ -16,7 +16,7 @@ albin test
       <div id="wrapper">
 
         <header>
-          
+
 
 header
         </header>
@@ -33,12 +33,12 @@ header
                             <!--    <a href="https://kunskapsforbundet.itslearning.com/ContentArea/ContentArea.aspx?LocationID=22136&LocationType=1"
                                 <a href="https://www.w3schools.com/" -->
 
-      </nav>
+<!--      </nav>
 
       <div id="mainwrapper">
         <main>
                             <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
-    Detta är CPU-sidan
+  <!--  Detta är CPU-sidan
 
       </main>
       <aside class="">
@@ -53,5 +53,156 @@ header
       </footer>
 
 </div>
+  </body>
+</html> -->
+
+
+<! DOCTYPE html>
+<html lang="en" dir="ltr"
+
+
+
+    <head>
+
+      <meta charset="utf-8">
+      <title> Albins sida </title>
+      <link rel="stylesheet" href="css/master.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+      <h2>Datorns uppbyggnad</h2>
+      <div id="wrapper">
+
+
+
+        <header>
+
+
+                      <a href="index.html">
+
+                       <button class="btn" id="btn1" type="button" name="button">hem</button>
+
+                      </a>
+
+                      <a href="chassie.html">
+
+                        <button class="btn"id="btn2" type="button" name="button">Chassi</button>
+
+                      </a>
+
+                      <a href="cpu.html">
+
+                        <button class="btn" id="btn3" type="button" name="button">Processor</button>
+
+                      </a>
+
+                      <a href="gpu.html">
+
+                        <button class="btn" id="active" type="button" name="button">Grafikkort</button>
+
+                      </a>
+
+                      <a href="RAM.html">
+
+                        <button class="btn" id="btn5" type="button" name="button">Arbetsminne</button>
+
+                      </a>
+
+                      <a href="Nätaggregat.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Nätagregat</button>
+
+                      </a>
+                      <a href="hårddisk.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Hårddisk</button>
+
+                      </a>
+
+                      <a href="refferenser.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">refferenser</button>
+
+                      </a>
+
+
+        </header>
+<hr>
+<br>
+<br>
+<br>
+
+
+      <div id="mainwrapper">
+        <main>
+                            <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
+        <div id="wrapperbox">
+
+          <div   id="topleft">
+            I datorn finns alla komponenter som krävs och allt funkar som det ska. Men hur?
+            <br>
+            <br>
+            Det är nämligen processorn, även kallad CPU (Central Processing Unit), som är hjärnan i kretsen och får alla bitar att falla på plats.
+             Denna komponent är den som får din dator att verka smart då det är den som sköter alla beräkningar och tar fram svaren.
+            Som av de flesta andra komponenter så finns även här en uppsjö av modeller att välja mellan och vilken du behöver beror
+             helt och hållet på vad man ska använda datorn till.
+             Ju större arbeten och tyngre program du använder,
+              desto kraftfullare processor behöver du.
+            <br>
+            <br>
+            <br>
+            <br>
+            Idag är Intel och AMD de ledande företagen på marknaden som har flera olika modeller av processorer och det kan vara svårt
+             att veta vad som är rätt för just din dator men generellt sett så är de dyrare varianterna ett måste för en dator som ska
+              hantera tunga projekt så som videoredigering eller CAD program, och de billigare räcker gott till en dator som är till för
+               lättare arbeten och vardagssysslor på skärmen.
+
+<br>
+<br>
+
+
+          </div>
+
+          <div id="topright">
+         <img src="img/Processor.jpg" alt="fin bild" width="500px">
+          </div>
+
+        </div>
+
+
+
+
+      </main>
+
+
+      <aside>
+      itslearningfsdjk
+      </aside>
+
+
+    </div>
+
+      <footer>
+        w3schools
+      </footer>
+
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+        $("#topleft").click(function(){
+          console.log("hej");
+          $("#topleft").css("background-color,lightgreen")
+$("#topright").toggle("slow",function() {
+//animation complete
+});
+
+
+        });
+
+        </script>
   </body>
 </html>

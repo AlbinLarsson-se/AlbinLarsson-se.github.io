@@ -1,4 +1,4 @@
-
+<!--
 <! DOCTYPE html>
 <html lang="en" dir="ltr"
     <head>
@@ -31,12 +31,12 @@ header
                             <!--    <a href="https://kunskapsforbundet.itslearning.com/ContentArea/ContentArea.aspx?LocationID=22136&LocationType=1"
                                 <a href="https://www.w3schools.com/" -->
 
-      </nav>
+  <!--    </nav>
 
       <div id="mainwrapper">
         <main>
                             <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
-    Detta är sidan om grafikkort
+<!--    Detta är sidan om grafikkort
 
       </main>
       <aside class="">
@@ -51,5 +51,147 @@ header
       </footer>
 
 </div>
+  </body>
+</html> -->
+
+<! DOCTYPE html>
+<html lang="en" dir="ltr"
+
+
+
+    <head>
+
+      <meta charset="utf-8">
+      <title> Albins sida </title>
+      <link rel="stylesheet" href="css/master.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+      <h2>Datorns uppbyggnad</h2>
+      <div id="wrapper">
+
+
+
+        <header>
+
+
+                      <a href="index.html">
+
+                       <button class="btn" id="btn1" type="button" name="button">hem</button>
+
+                      </a>
+
+                      <a href="chassie.html">
+
+                        <button class="btn"id="btn2" type="button" name="button">Chassi</button>
+
+                      </a>
+
+                      <a href="cpu.html">
+
+                        <button class="btn" id="btn3" type="button" name="button">Processor</button>
+
+                      </a>
+
+                      <a href="gpu.html">
+
+                        <button class="btn" id="active" type="button" name="button">Grafikkort</button>
+
+                      </a>
+
+                      <a href="RAM.html">
+
+                        <button class="btn" id="btn5" type="button" name="button">Arbetsminne</button>
+
+                      </a>
+
+                      <a href="Nätaggregat.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Nätagregat</button>
+
+                      </a>
+                      <a href="hårddisk.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Hårddisk</button>
+
+                      </a>
+
+                      <a href="refferenser.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">refferenser</button>
+
+                      </a>
+
+
+        </header>
+<hr>
+<br>
+<br>
+<br>
+
+
+      <div id="mainwrapper">
+        <main>
+                            <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
+        <div id="wrapperbox">
+
+          <div   id="topleft">
+      <img src="img/gpu.jpg" alt="fin bild" width="500px">
+
+<br>
+<br>
+
+
+          </div>
+
+          <div id="topright">
+    Grafikkortet har i grund och botten en funktion som omvandlar all information som datorn tar emot (ettor och nollor), till bildlig
+     information som gör att du kan se vad som pågår på skärmen. Graffikortet, eller GPU ”Graphics Processing Unit”  är den komponent som ger
+      avlastning till processorn och moderkortet när tyngre program som spel eller videoredigering med stor grafisk information används.
+<br>
+<br>
+<br>
+ Även kring grafikkort finns det väldigt mycket att välja mellan och rätt val beror på vilket användningsområde du ska ha din dator till.
+  Idag så tävlar AMD och Nvidia om andraplatsen i GPU-världen där Intel leder med 60% utav dagens användning.
+
+          </div>
+
+        </div>
+
+
+
+
+      </main>
+
+
+      <aside>
+      itslearningfsdjk
+      </aside>
+
+
+    </div>
+
+      <footer>
+        w3schools
+      </footer>
+
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+        $("#topleft").click(function(){
+          console.log("hej");
+          $("#topleft").css("background-color,lightgreen")
+$("#topright").toggle("slow",function() {
+//animation complete
+});
+
+
+        });
+
+        </script>
   </body>
 </html>

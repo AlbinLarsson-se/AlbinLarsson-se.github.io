@@ -1,5 +1,5 @@
 
-<! DOCTYPE html>
+<!-- <! DOCTYPE html>
 <html lang="en" dir="ltr"
     <head>
 
@@ -31,7 +31,7 @@ header
                             <!--    <a href="https://kunskapsforbundet.itslearning.com/ContentArea/ContentArea.aspx?LocationID=22136&LocationType=1"
                                 <a href="https://www.w3schools.com/" -->
 
-      </nav>
+<!--      </nav>
 
       <div id="mainwrapper">
         <main>
@@ -51,7 +51,7 @@ header
 
           </div>
         </div>                <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
-    Detta är sidan om hårddisken
+  <!--  Detta är sidan om hårddisken
 
       </main>
       <aside class="">
@@ -66,5 +66,162 @@ header
       </footer>
 
 </div>
+  </body>
+</html> -->
+
+<! DOCTYPE html>
+<html lang="en" dir="ltr"
+
+
+
+    <head>
+
+      <meta charset="utf-8">
+      <title> Albins sida </title>
+      <link rel="stylesheet" href="css/master.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+      <h2>Datorns uppbyggnad</h2>
+      <div id="wrapper">
+
+
+
+        <header>
+
+
+                      <a href="index.html">
+
+                       <button class="btn" id="btn1" type="button" name="button">hem</button>
+
+                      </a>
+
+                      <a href="chassie.html">
+
+                        <button class="btn"id="btn2" type="button" name="button">Chassi</button>
+
+                      </a>
+
+                      <a href="cpu.html">
+
+                        <button class="btn" id="btn3" type="button" name="button">Processor</button>
+
+                      </a>
+
+                      <a href="gpu.html">
+
+                        <button class="btn" id="active" type="button" name="button">Grafikkort</button>
+
+                      </a>
+
+                      <a href="RAM.html">
+
+                        <button class="btn" id="btn5" type="button" name="button">Arbetsminne</button>
+
+                      </a>
+
+                      <a href="Nätaggregat.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Nätagregat</button>
+
+                      </a>
+                      <a href="hårddisk.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">Hårddisk</button>
+
+                      </a>
+                      <a href="refferenser.html">
+
+                        <button class="btn" id="btn6" type="button" name="button">refferenser</button>
+
+                      </a>
+
+
+
+        </header>
+<hr>
+<br>
+<br>
+<br>
+
+
+      <div id="mainwrapper">
+        <main>
+                            <!--<img src="img/testbild.jpg" alt="testbild.jpg"> -->
+        <div id="wrapperbox">
+
+          <div   id="topleft">
+
+
+
+             <img src="img/hårddisk.jpg" alt="hårddisk" width="500px">
+
+
+
+
+          </div>
+
+          <div id="topright">
+
+
+         Hårddisken är en komponent som är minst lika viktig som de andra för att en dator ska fungera.
+          Dessa är till för att kunna lagra information för att på ett lättare sätt kunna arbeta i datorn genom att installera och använda program.
+           Man kan alltså kalla detta för datorns bibliotek då all information kring datorn lagras här.
+            Men de traditionella hårddiskarna som lagrar information, på en roterande disk, med hjälp utav magnetik har på senare år fått konkurrens av de moderna SSD-diskarna.
+<br>
+<br>
+
+             SSD-diskar (Solid State Drive) fungerar på så sätt att informationen istället lagras i elektroniska kretsar vilket i sin tur bidrar
+              till att denna typ av hårddisk kan läsa och dela information på hastigheter över 3000 MB/s, till skillnad från den förstnämnda varianten
+               med en läshastighet på ca 150 MB/s. Och eftersom att SSD-disken inte drivs av några mekaniska delar så är den även ett mycket energisnålare
+                och snabbare sätt att lagra information på samtidigt som den blir okänslig för vibrationer till skillnad från den traditionella hårddisken som hade flertalet rörliga delar i sig.
+
+          </div>
+
+        </div>
+
+        <div id="bottomcenter">
+          <hr>
+          Men varför vill man då fortsätta att använda sig utav de traditionella hårddiskarna? De må vara mycket långsammare, men dessa har nämligen möjlighet att
+          lagra mer information än en SSD-disk och därför väljer vissa användare att köpa en mekanisk hårddisk istället för en SSD för att lagringen i vissa fall är viktigare än hastigheten.
+          I vissa fall kan man även kombinera dessa två komponenter för att få ut det maximalt bästa av två världar!
+
+        </div>
+<div id="bottomright">
+
+</div>
+
+      </main>
+
+
+      <aside>
+      itslearningfsdjk
+      </aside>
+
+
+    </div>
+
+      <footer>
+        w3schools
+      </footer>
+
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+
+        $("#topleft").click(function(){
+          console.log("hej");
+          $("#topleft").css("background-color,lightgreen")
+$("#topright").toggle("slow",function() {
+//animation complete
+});
+
+
+        });
+
+        </script>
   </body>
 </html>

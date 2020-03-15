@@ -1,14 +1,38 @@
-f {font-family: sans-serif;}
+body{
+  font-family: sans-serif;
 
-h2{
-
-  background-color: red;
 }
 
 
-header{
-background-color: green;
-height: 200px;
+
+
+
+h2{
+
+  background-color: dodgerblue;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
+color: white;
+text-shadow: 3px 2px black;
+
+
+}
+
+h3{
+  background-color:;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 30px;
+color: dodgerblue;
+text-shadow: grey;
+
+
+}
+                                    /*
+                                    header{
+                                    background-color: green;
+                                    height: 50px;
 width: 100%;
 
 
@@ -78,6 +102,122 @@ background-color: brown;
 
 
 @media only screen and (max-width: 600px)  {
+
+  #mainwrapper{
+    display:flex;
+    flex-direction: column;
+
+}
+main{
+  width: 100%;
+}
+aside{
+  width:100%;
+
+}
+}
+*/
+
+
+header{
+
+  background-color: white;
+
+  height: 40px;
+
+  width: 100%;
+
+  text-align: center;
+
+  text-decoration: none;
+
+}
+
+
+nav{
+
+  background-color: white;
+
+  height: 400px;
+
+  width: 40%;
+
+  text-align: left;
+
+  font-size: 25px;
+
+
+}
+
+main{
+
+  background-color: white;
+
+  height: 700px;
+
+  width: 30%;
+
+}
+
+aside{
+
+  background-color: yellow;
+
+  height: 700px;
+
+  width: 10%;
+
+}
+
+
+
+footer{
+
+  background-color: red;
+
+  height: 100px;
+
+  width: 100%;
+
+
+
+}
+#wrapperbox{
+width: 100%;
+height: 50%;
+background-color: grey;
+display:flex;
+}
+
+#bottomcenter{
+width: 60%;
+height: 50%;
+background-color: white;
+
+}
+
+#topleft{
+height:100%;
+width:50%;
+background-color: white;
+
+}
+#topright{
+height:100%;
+width:50%;
+background-color: white;
+
+}
+
+#bottomright{
+height:100%;
+width:40%;
+background-color: white;
+
+}
+
+}
+
 
   #mainwrapper{
     display:flex;
